@@ -70,7 +70,7 @@ public abstract class GuiMixin {
             Font font = getFont();
             float x = screenWidth / 2f - font.width(component) / 2f;
             float y = screenHeight / 2f + 20f;
-            float opacity = Minecraft.getInstance().options.getBackgroundOpacity(0.25F);
+            float opacity = minecraft.options.getBackgroundOpacity(0.25F);
             int backgroundColor = (int)(opacity * 255.0F) << 24;
             MultiBufferSource.BufferSource bufferSource = MultiBufferSource.immediate(Tesselator.getInstance().getBuilder());
             font.drawInBatch(component, x, y, -1, false, pPoseStack.last().pose(), bufferSource, Font.DisplayMode.SEE_THROUGH, backgroundColor, 15728880);
