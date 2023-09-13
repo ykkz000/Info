@@ -3,7 +3,7 @@
   "minVersion": "0.8",
   "package": "ykkz000.info.mixin",
   "compatibilityLevel": "JAVA_17",
-  "refmap": "Info.refmap.json",
+  "refmap": "info.refmap.json",
   "mixins": [
   ],
   "client": [
