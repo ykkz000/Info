@@ -41,7 +41,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @OnlyIn(Dist.CLIENT)
 public abstract class EntityRendererMixin<T extends Entity> {
     @Unique
-    private static final int BLOOD_BAR_WIDTH = 128;
+    private static final int BLOOD_BAR_WIDTH = 96;
     @Shadow @Final protected EntityRenderDispatcher entityRenderDispatcher;
 
     @Shadow public abstract Font getFont();
