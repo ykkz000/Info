@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ykkz000.info.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "Info.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "EntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
